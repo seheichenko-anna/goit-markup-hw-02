@@ -1,0 +1,121 @@
+:root {
+    --primary-color: #2E2F42;
+    --second-color: #434455;
+    --third-color: #F4F4FD;
+    --accent-color: #4D5AE5;
+    --white-color: #FFF;
+    --hover-color: #404BBF;
+    --background: #E7E9FC;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.header-nav-list-item a {
+    font-weight: 500;
+}
+
+.header-nav-list-item a:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+
+.header-contacts-list-item a:hover {
+    color: var(--hover-color);
+}
+
+.hero {
+    background-color: var(--primary-color);
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+}
+
+.hero-order-btn {
+    border-radius: 4px;
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+
+.section-title {
+    line-height: 1.11;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+}
+
+.list-item-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.list-item-text {
+    color: var(--second-color);
+}
+
+.footer {
+    background-color: var(--primary-color);
+}
+
+.footer-logo {
+    color: var(--third-color);
+}
+
+.footer-text {
+    color: var(--third-color);
+}
+
+.portfolio-filter-list-item button {
+    color: var(--accent-color);
+    background-color: var(--background);
+    font-weight: 500;
+    letter-spacing: 0.64px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.portfolio-filter-list-item button:hover,
+.portfolio-filter-list-item button:active {
+    color: var(--white-color);
+    background-color: var(--hover-color);
+}
