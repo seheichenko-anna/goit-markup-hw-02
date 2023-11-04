@@ -53,6 +53,9 @@ body {
     text-decoration: underline;
 }
 
+.header-contacts-list .link {
+    color: var(--second-color);
+}
 
 .header-contacts-list .link:hover,
 .header-contacts-list .link:focus {
@@ -86,7 +89,7 @@ body {
 }
 
 .hero-order-btn:hover,
-.hero-order-btn:hover {
+.hero-order-btn:focus {
     background-color: var(--hover-color);
 }
 
@@ -126,7 +129,7 @@ body {
 }
 
 .section-our-team {
-    background-color: var(--background);
+    background-color: var(--third-color);
     text-align: center;
 }
 
@@ -149,9 +152,10 @@ body {
 .portfolio-filter-btn {
     font-family: 'Roboto', sans-serif;
     color: var(--accent-color);
-    background-color: var(--background);
+    background-color: var(--third-color);
     font-weight: 500;
     letter-spacing: 0.04em;
+    line-height: 1.5;
     border: none;
     cursor: pointer;
 }
