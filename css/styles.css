@@ -36,7 +36,7 @@ body {
     color: var(--accent-color);
 }
 
-.accent {
+.header-logo {
     color: var(--primary-color);
 }
 
@@ -96,7 +96,8 @@ body {
     font-weight: 700;
     letter-spacing: 0.72px;
     text-align: center;
-    text-transform: capitalize
+    text-transform: capitalize;
+    color: var(--primary-color);
 }
 
 .list-item-title {
@@ -105,7 +106,21 @@ body {
     line-height: 1.2;
     letter-spacing: 0.4px;
     text-align: center;
+    color: var(--primary-color);
 }
+
+.portfolio-list-item-title {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.portfolio-list-item-text {
+    color: var(--second-color);
+}
+
 
 .list-item-text {
     color: var(--second-color);
@@ -124,7 +139,7 @@ body {
 }
 
 .footer-logo {
-    color: var(--third-color);
+    color: var(--third-color)
 }
 
 .footer-text {
