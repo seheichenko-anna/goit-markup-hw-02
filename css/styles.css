@@ -44,13 +44,15 @@ li {
     font-weight: 500;
 }
 
-.header-nav-list-item a:hover {
+.header-nav-list-item a:hover,
+.header-nav-list-item a:focus {
     color: var(--hover-color);
     text-decoration: underline;
 }
 
 
-.header-contacts-list-item a:hover {
+.header-contacts-list-item a:hover,
+.header-contacts-list-item a:focus {
     color: var(--hover-color);
 }
 
@@ -115,6 +117,7 @@ li {
 }
 
 .portfolio-filter-list-item button:hover,
+.portfolio-filter-list-item button:focus,
 .portfolio-filter-list-item button:active {
     color: var(--white-color);
     background-color: var(--hover-color);
